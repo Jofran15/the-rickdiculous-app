@@ -1,0 +1,24 @@
+.main-container{
+    text-align: center;
+    background-image:url('../assets/rick.png');
+    position:fixed;
+    min-width:100%;
+    min-height:100%;
+    background-size:cover;
+    background-position:center
+    
+   
+}
+.container{
+    width:66.66%;
+    font-size: 200%;
+color: white;
+}
+.buttons{
+    display:flex;
+    margin-top: 20%;
+    flex-direction:column;
+    justify-content: stretch;
+    
+    
+}
