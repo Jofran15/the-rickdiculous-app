@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Personaje from "../components/Personaje";
 import axios from "axios";
 import "../styles/Personajes.css"
+import Navbar from "../components/Navbar";
 
 class Personajes extends Component {
   state = {
@@ -27,7 +28,15 @@ class Personajes extends Component {
         />
       );
     });
-    return <div className="main">{personajes}</div>;
+    return <div className="main">
+      <div className='navbar'>
+        <Navbar/>
+      </div>
+      <div className='personajes'>
+      {personajes}
+      </div>
+      
+      </div>;
   }
 }
 
